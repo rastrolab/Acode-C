@@ -1,0 +1,23 @@
+{
+  "name": "acode-c",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Comprehensive C language support for Acode: lint, clang-format, completion, snippets, docs, outline.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test \"test/*.test.js\"",
+    "pack": "node scripts/build.mjs --pack"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@codemirror/legacy-modes": "^6.5.0",
+    "@wasm-fmt/clang-format": "^23.1.1",
+    "tree-sitter-wasms": "0.1.13",
+    "web-tree-sitter": "0.20.8"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "fflate": "^0.8.2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "rastrolab.acode-c",
+  "name": "C Language Toolkit",
+  "main": "main.js",
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "files": [
+    "assets/tree-sitter.wasm",
+    "assets/tree-sitter-c.wasm",
+    "assets/clang-format.wasm"
+  ],
+  "minVersionCode": 290,
+  "license": "MIT",
+  "keywords": ["c", "lint", "linter", "clang-format", "formatter", "snippets", "completion", "tree-sitter"],
+  "author": { "name": "rastrolab", "github": "rastrolab" },
+  "repository": "https://github.com/rastrolab/acode-c"
+}
